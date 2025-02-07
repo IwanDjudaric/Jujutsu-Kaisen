@@ -8,6 +8,7 @@ img {
     position: absolute;
     animation: floatAround 10s infinite linear;
 }
+
 #videoplayer{
     background-color: rgba(0, 0, 0, 0);
     margin: auto;
@@ -24,16 +25,39 @@ img {
     justify-content: center;
 }
 
-.char1{
+.char {
     background-color: rgba(0, 0, 0, 0);
     text-decoration: none;
-    width: 20vh;
+    width: 20vh; 
     height: 20vh;
     margin: 60px;
     border-style: solid;
     border-color: white;
     border-width: 3px;
+    position: relative; 
+    overflow: hidden; 
+    cursor: pointer;
 }
+
+#charA {
+    background-image: url(./images/ben-riley-spiderlogo.png);
+    background-size: cover;
+    background-position: center;
+}
+#charA video { 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: none; 
+}
+
+#charA:hover video {
+    display: block;
+}
+
 
 @keyframes floatAround {
     0% {
