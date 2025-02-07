@@ -59,6 +59,15 @@ img {
     display: block;
 }
 
+<<<<<<< HEAD
+=======
+#charC {
+    background-image: url(./images/stalker.png);
+    background-size: cover;
+    background-position: center;
+}
+
+>>>>>>> 12205c93b55b1fe411fa9159a855ff83801ac4df
 @keyframes floatAround {
     0% {
         top: 0;
