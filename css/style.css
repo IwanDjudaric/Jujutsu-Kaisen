@@ -40,7 +40,7 @@ img {
 }
 
 #charA {
-    background-image: url(./images/ben-riley-spiderlogo.png);
+    background-image: url(./images/spiderlogo.png);
     background-size: cover;
     background-position: center;
 }
@@ -55,19 +55,36 @@ img {
     display: none; 
 }
 
+#charC video { 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover; 
+    display: none; 
+}
+
 #charA:hover video {
     display: block;
 }
 
-<<<<<<< HEAD
-=======
+#charC:hover video {
+    display: block;
+}
+#fas-for {
+   background-image: url(./images/ffwd.png);
+   background-size: 99% 115%;
+   background-repeat: no-repeat;
+   background-position: center;
+}
 #charC {
     background-image: url(./images/stalker.png);
-    background-size: cover;
+    background-size: 99% 115%;
+    background-repeat: no-repeat;
     background-position: center;
 }
 
->>>>>>> 12205c93b55b1fe411fa9159a855ff83801ac4df
 @keyframes floatAround {
     0% {
         top: 0;
