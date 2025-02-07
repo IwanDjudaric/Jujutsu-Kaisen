@@ -69,18 +69,6 @@ img {
     display: block;
 }
 
-<<<<<<< HEAD
-#charC:hover video {
-    display: block;
-}
-#fas-for {
-   background-image: url(./images/ffwd.png);
-   background-size: 99% 115%;
-   background-repeat: no-repeat;
-   background-position: center;
-}
-=======
->>>>>>> aba4da9606dc3d82b19f18afefa4718d7363876e
 #charC {
     background-image: url(./images/stalker.png);
     background-size: 99% 115%;
