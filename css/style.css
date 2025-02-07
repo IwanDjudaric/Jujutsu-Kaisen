@@ -29,7 +29,7 @@ img {
     background-color: rgba(0, 0, 0, 0);
     text-decoration: none;
     width: 20vh; 
-    height: 20vh;
+    height: 20vh; 
     margin: 60px;
     border-style: solid;
     border-color: white;
@@ -44,6 +44,7 @@ img {
     background-size: cover;
     background-position: center;
 }
+
 #charA video { 
     position: absolute; 
     top: 0;
@@ -57,7 +58,6 @@ img {
 #charA:hover video {
     display: block;
 }
-
 
 @keyframes floatAround {
     0% {
