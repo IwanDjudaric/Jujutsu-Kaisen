@@ -1,3 +1,13 @@
+body{
+    background-color: black;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    animation: floatAround 10s infinite linear;
+}
 #videoplayer{
     background-color: rgba(0, 0, 0, 0);
     margin: auto;
@@ -8,9 +18,12 @@
     border-color: white;
     border-width: 3px;
 }
-body{
-    background-color: black;
+
+#storyselector{
+    display: flex;
+    justify-content: center;
 }
+
 .char1{
     background-color: rgba(0, 0, 0, 0);
     text-decoration: none;
@@ -20,17 +33,6 @@ body{
     border-style: solid;
     border-color: white;
     border-width: 3px;
-}
-#storyselector{
-    display: flex;
-    justify-content: center;
-}
-
-img {
-    width: 100px;
-    height: 100px;
-    position: absolute;
-    animation: floatAround 10s infinite linear;
 }
 
 @keyframes floatAround {
