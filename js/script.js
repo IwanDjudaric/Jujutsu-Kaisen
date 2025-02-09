@@ -1,10 +1,7 @@
-document.getElementById("charA").addEventListener("click", function () {
-    changeVideo("../css/videos/filler-vid.mp4");
+document.getElementById("fas-for").addEventListener("click", function () {
+    changeVideo("../css/videos/Spideyfight2.mp4");
 });
 
-document.getElementById("charC").addEventListener("click", function () {
-    changeVideo("../css/videos/charC.mp4");
-});
 
 function changeVideo(videoSrc) {
     let videoPlayer = document.getElementById("videoplayer");

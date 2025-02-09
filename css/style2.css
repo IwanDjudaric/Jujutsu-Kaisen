@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: arial, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+header{
+    width: calc(100% - 10vw);
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 10vh;
+    position: sticky;
+    text-align: center;
+    margin: auto;
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+}
+
+p{
+    font-size: 14px;
+    
+}
+
+#benlore{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-color: white;
+    border-width: 3px;
+    margin: 60px;
+    width: 25vw;
+    position: relative;
+    left: 30%;
+}
